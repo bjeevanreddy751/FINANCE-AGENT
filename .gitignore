@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local vector database and caches
+chroma_db/
+.pytest_cache/
+.streamlit/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
